@@ -24,3 +24,26 @@ If for any reason your PocketSprite does not boot anymore (e.g. you uploaded a b
 2. Go into recovery mode by releasing only the Power button and keeping Start+Select pressed
 
 From there you can erase the flash, reset the nvs and do a factory reset
+
+---
+## Purpose of this fork
+I will improve and add more features to the Chooser.app Pocket Sprite File Manager website, always trying to get it as lower size as possible.
+
+## Goals
+   - Clean up, tidy up, optimize and fix html/css/javascript
+   - Add new column "Type" based on files extensions.
+   - Add "Advanced mode" (All new features will be on this mode)
+   - Add filters by files type (All, Roms, Saves, Apps)
+   - Add sorting asc/desc on every column
+   - Add sum size of all files sizes after filtering
+   - Add search box for quickly find files
+   - Add confirmation dialog when deleting files
+   - Add cookie management to store current mode and filter settings
+   - Add multiple file upload
+   - Add warning dialog before upload file that's bigger than free space
+   - Optimize responsiveness for mobile devices
+   - Implement minifying for css and js on build process
+   - Implement bundling for js on build process
+   
+
+   
